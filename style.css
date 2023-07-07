@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo-top {
+    margin-bottom: 30px;
+}
+
+.header {
+    font-size: 25px;
+}
+
+.desc {
+    margin:15px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.zoho-img {
+    margin: 15px 0;
+}
+
+.hero-info {
+    margin-top: 10px;
+    font-size: 13px;
+}
+.pricing-container {
+    display: grid;
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px;
+}
+
+.pricing-menu {
+    border-radius: 32px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 11px 23px 0px rgba(0, 0, 0, 0.10), 0px 42px 42px 0px rgba(0, 0, 0, 0.09), 0px 95px 57px 0px rgba(0, 0, 0, 0.05), 0px 170px 68px 0px rgba(0, 0, 0, 0.01), 0px 265px 74px 0px rgba(0, 0, 0, 0.00);    background-color: #fff;
+    
+}
+
+.no-shadow {
+    box-shadow: none;
+    background: none;
+    border-radius: 0;
+}
+
+.green-box {
+    background-color: #8DE757;
+    border-radius: 32px;   
+    height: 120px;
+    
+}
+
+.box-list {
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: url('img/tick.svg');
+    vertical-align:middle;
+    line-height: 18px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.box-list-small {
+    font-size: 10px;
+}
+
+.box-items {
+    margin: 10px;
+    font-size: 13px;
+
+}
+
+
+.gbox-list {
+    color: #fff;
+    list-style-type: none;
+    padding-left: 30px;
+    padding: 30px 20px;
+
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #8DE757;
+}
+
+h3 {
+    font-size: 25px;
+    padding-left: 30px;
+    padding: 30px 20px;
+    color: #fff;
+
+
+}
+
+.gbox-currency {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.gbox-amt {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 750px) {
+    .pricing-container {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
+    .pricing-container > div:nth-child(1) {
+      -ms-grid-row: 1;
+      grid-row-start: 1;
+    }
+    .pricing-container > div:nth-child(2) {
+      -ms-grid-row: 2;
+      grid-row-start: 2;
+    }
+    .pricing-container > div {
+      -ms-flex-item-align: top;
+      -ms-grid-row-align: top;
+      align-self: top;
+    }
+  }
+  
+
