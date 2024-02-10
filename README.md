@@ -1,6 +1,6 @@
 # Sastohost 🚀
 
-This is the repository which contains the code for [Sastohost](https://sastohost.net).
+This is the repository which contains the code for [Sastohost.net](https://sastohost.net).
 
 ## Tech used
 **Figma** ( design ) 🎨 and **HTMl, CSS, JS** ( code ) 👨‍💻
